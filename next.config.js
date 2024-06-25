@@ -44,4 +44,4 @@ const withPWA = require('next-pwa')({
 module.exports = withBundleAnalyzer(withPWA(nextConfig))
 
 
-// module.exports = nextConfig
+module.exports = nextConfig;
